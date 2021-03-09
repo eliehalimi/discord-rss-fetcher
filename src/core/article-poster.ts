@@ -31,7 +31,7 @@ export default class ArticlePoster
         const title = article.title ? `\n**${article.title}**` : ""
         const link = article.link ? `\n${article.link}` : ""
 
-        let message = title
+        let message = ""
 
 	/*
         if (article.content)
