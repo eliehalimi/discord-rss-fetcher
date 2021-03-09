@@ -1,1 +1,1 @@
-FROM eliehalimi/discord-rss-fetcher:latest
+FROM drrodneymckay/discord-rss-fetcher:latest
