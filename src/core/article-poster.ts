@@ -33,6 +33,7 @@ export default class ArticlePoster
 
         let message = title
 
+	/*
         if (article.content)
         {
             let articleString = HtmlToText.fromString(article.content)
@@ -43,7 +44,8 @@ export default class ArticlePoster
             message +=  (isTooLong ? articleFormattingLong : articleFormattingShort).replace("{{article}}", articleString)
         }
         message += link.length <= overallCharacterLimit ? link : link.substr(0, overallCharacterLimit)
-
+*/
+	message += "\n" + link
         return message
     }
 }
