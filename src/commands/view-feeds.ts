@@ -28,7 +28,7 @@ async function invoke(params: string[], message: Message)
 
 export default new Command(
         /*syntax*/          "view-feeds",
-        /*description*/     "Show the configured RSS feeds for this server",
+        /*description*/     "Show the configured Oracle bells for this server",
         /*permissionLevel*/ PermissionLevel.Admin,
         /*invoke*/          invoke,
 )
